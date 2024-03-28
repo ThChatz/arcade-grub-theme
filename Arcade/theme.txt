@@ -19,7 +19,7 @@ terminal-border: "0"
   left = 35%
   top = 45%
   width = 30%
-  height = 60%
+  height = 20%
   item_font = "Super Mario Bros. 2 Regular 16"
   item_color = "#cccccccc"
   selected_item_color = "#dbd442"
