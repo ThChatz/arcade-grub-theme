@@ -1,7 +1,7 @@
 {
   description = "Arcade theme for grub";
 
-  inputs.nixpkgs.url = github:NixOS/nixpkgs/unstable;
+  inputs.nixpkgs.url = github:NixOS/nixpkgs/nixos-unstable;
 
   outputs = { self, nixpkgs }: {
 
