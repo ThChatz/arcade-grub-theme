@@ -12,7 +12,7 @@
         pname = "arcade-grub-theme";
         src = self;
         installPhase = "cp -r Arcade $out";
-        version = "1.0.1";
+        version = self.rev;
       };
   };
 }
