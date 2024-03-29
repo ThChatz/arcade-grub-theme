@@ -9,9 +9,10 @@
       # Notice the reference to nixpkgs here.
       with import nixpkgs { system = "x86_64-linux"; };
       stdenv.mkDerivation {
-        name = "arcade-grub-theme";
+        pname = "arcade-grub-theme";
         src = self;
         installPhase = "cp -r Arcade $out";
+        version = "1.0.1";
       };
   };
 }
